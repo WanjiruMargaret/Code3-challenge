@@ -1,0 +1,25 @@
+{
+  "posts": [
+    {
+      "id": 1,
+      "title": "First Blog Post",
+      "content": "This is the content of the first blog post.",
+      "author": "Alice",
+      "image": "https://via.placeholder.com/150"
+    },
+    {
+      "id": 2,
+      "title": "Second Blog Post",
+      "content": "This is the second post about JavaScript.",
+      "author": "Bob",
+      "image": "https://via.placeholder.com/150"
+    },
+    {
+      "title": "maggie",
+      "author": "antony",
+      "content": "mmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmm",
+      "image": "https://via.placeholder.com/150",
+      "id": 3
+    }
+  ]
+}
