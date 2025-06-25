@@ -37,7 +37,7 @@ function addNewPostListener() {
       title: form.title.value,
       author: form.author.value,
       content: form.content.value,
-      image: "https://via.placeholder.com/150"
+      image: form.image.value,
     };
 
     // Add to server

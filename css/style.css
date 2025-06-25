@@ -2,7 +2,26 @@ body {
   font-family: Arial, sans-serif;
   margin: 0;
   padding: 20px;
-  background-color: #f4f4f4;
+  background-color: aquamarine;
+}
+
+form{
+  display: flex;
+  align-self: center;
+  justify-items: baseline;
+  padding: 20pc;
+  gap: 30px;
+
+}
+#new-post-form{
+  display: flex;
+  flex-wrap: wrap;
+  padding: 7px 0px;
+}
+
+h1{
+  color:darkcyan;
+  font-style: italic;
 }
 #post-list div {
   cursor: pointer;
