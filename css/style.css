@@ -1,16 +1,28 @@
 body {
   font-family: Arial, sans-serif;
-  margin: 0;
-  padding: 20px;
+  margin: 2% solid black;
+  padding: 30px;
+  justify-items: center;
+  align-items: center;
+  align-content: flex-end;
+  justify-content: center;
   background-color: aquamarine;
+
+}
+table{
+  width: 100%;
+  border-collapse: collapse;
+  margin-right: 200pc;
 }
 
 form{
   display: flex;
-  align-self: center;
-  justify-items: baseline;
-  padding: 20pc;
-  gap: 30px;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content:center;
+  justify-items: right;
+  align-items: center;
+  gap: 4px;
 
 }
 #new-post-form{
