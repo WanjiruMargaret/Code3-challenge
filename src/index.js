@@ -60,7 +60,7 @@ postForm.addEventListener('submit', async (e) => {
     date: new Date().toISOString().split('T')[0]
   };
 
-  await fetch(BASE_URL, {
+    await fetch(BASE_URL, {
     method: 'POST',
     headers: { 'Content-Type': 'application/json' },
     body: JSON.stringify(newPost)
