@@ -28,7 +28,7 @@ bash
 Copy
 Edit
 npm install -g json-server
- ### 3. Start the JSON Server
+### 3. Start the JSON Server
 From the project root (where db.json is located), run:
 
 bash
@@ -93,5 +93,5 @@ Live image preview on input
 Mobile-responsive design (if CSS is customized)
 
 🙋‍♀️ Author
-Built with ❤️ by [Maggie]
+Built with ❤️(love) by [Maggie]
 This project was developed as part of a learning phase on working with frontend and mock APIs using json-server.
