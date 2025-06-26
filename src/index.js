@@ -14,6 +14,7 @@ let currentPosts = [];
 async function loadPosts() {
   const res = await fetch(BASE_URL);
   const posts = await res.json();
+  console.log('Posts received:', posts);
   currentPosts = posts;
   renderPostList(posts);
   if (posts.length) renderPostDetail(posts[posts.length - 1]); // show last added
@@ -21,6 +22,8 @@ async function loadPosts() {
 
 // 📝 Render post list
 function renderPostList(posts) {
+   const postsList = document.querySelector('.sidebar ul');
+   console.log('Rendering posts list to:', postsList);
   postsList.innerHTML = '';
   posts.forEach(post => {
     const li = document.createElement('li');
