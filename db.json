@@ -2,7 +2,7 @@
   "posts": [
     {
       "id": 1,
-      "title": "Getting Started with React",
+      "title": "Getting Started",
       "author": "Karla Johnson",
       "date": "2020-05-11",
       "image": "https://i.imgur.com/QZ5LxRt.jpg",
