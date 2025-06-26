@@ -1,27 +1,32 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>Blog Posts</title>
-  <link rel="stylesheet" href="./css/style.css" />
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Post Pulse</title>
+  <link rel="stylesheet" href="./css/style.css">
 </head>
 <body>
-  <h1>Blog Posts</h1>
-  <table>
-      <div id="post-list"></div>
-  <hr />
-  <div id="post-detail"></div>
-  </table>
-  <form id="new-post-form">
-    <h2>New Posts</h2>
-    <input type="text" name="title" placeholder="Title" required />
-    <input type="text" name="author" placeholder="Author" required />
-    <input type="url" name="image" placeholder="Image URL" required />
-    <textarea name="content" placeholder="Content" required></textarea>
-    <button type="submit">Add Post</button>
-  </form>
+  <div class="container">
+    <h1>Post Pulse</h1>
+    <p class="subtitle">Modern blog post management</p>
+    <div class="layout">
+      <!-- Sidebar -->
+      <div class="sidebar">
+        <h2>Blog Posts</h2>
+        <form class="add-form">
+          <input placeholder="Title" />
+          <input placeholder="Author name..." />
+          <input placeholder="Image URL..." />
+          <textarea placeholder="Write your post content..."></textarea>
+          <button type="submit">+ Add Post</button>
+        </form>
+      </div>
 
-  <script src="src/index.js"></script>
+      <!-- Main Post Display -->
+      <div class="main-post"></div>
+    </div>
+  </div>
+  <script src="./src/index.js"></script>
 </body>
 </html>
